@@ -16,15 +16,13 @@ color:
 # Team names, titles and social links
 people:
 - name: Sabrina Guimarães
-  pic: 3
+  pic: sabry.jpg
   position: Arquiteta & Coach Déco
   social:
-    - title: twitter
-      url: #
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://facebook.com/sabrina.guimaraes.94
+    - title: linkedin
+      url: https://br.linkedin.com/pub/sabrina-guimarães/14/448/a64
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
