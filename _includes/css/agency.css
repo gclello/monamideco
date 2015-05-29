@@ -1,4 +1,9 @@
-/*!
+/*
+ * Copyright (c) 2015 Mon Ami Déco <dev@monamideco.com>                                              
+ *
+ * This file incorporates work covered by the following copyright and
+ * permission notice:
+ *
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -266,7 +271,6 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -655,7 +659,6 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
