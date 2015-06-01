@@ -15,6 +15,10 @@ body {
     color: #{{ site.color.secondary-dark }};
 }
 
+.hide {
+    display: none;
+}
+
 .text-muted {
     color: rgb(87,75,69);
 }
@@ -721,6 +725,14 @@ section#contact .section-heading {
     border-style: none;
     width: 100%;
     height: 607px;
+}
+
+@media(min-width:992px) {
+    #contact-container iframe {
+        border-style: none;
+        width: 100%;
+        height: 337px;
+    }
 }
 
 .contact-form {

@@ -2,10 +2,28 @@
 <html>
     {% include head.html %}
 
-    <body id="page-top" class="index bg-darkest-gray">
+    <body id="page-top" class="index bg-darkest-gray" onload="init_form()"; onunload="end_form();">
 
     {{ content }}
     {% include js.html %}
+
+    <script>
+        var formSent = false;
+
+        function init_form() {
+            formSent = false;
+        }
+
+        function on_form_sent() {
+            formSent = true;
+        }
+
+        function end_form() {
+            if(formSent) {
+                window.parent.on_form_success();
+            }
+        }
+    </script>
 
     </body>
 </html>

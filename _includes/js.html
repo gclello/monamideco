@@ -10,3 +10,18 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Contact form -->
+    <script>
+        function on_form_success() {
+            var contactDiv = $("#contact-container")
+            var contactMsg = $("#contact-msg")
+            if(!contactDiv) {
+                console.log("Contact div not found.");
+            }
+            else {
+                contactDiv.css("display", "none");
+                contactMsg.removeClass("hide");
+            }
+        }
+    </script>
